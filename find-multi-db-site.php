@@ -7,7 +7,7 @@
  *  Network: true
  *  License: GPLv2 or later
  *  License URI: http://www.opensource.org/licenses/gpl-license.php
- *  Description: This plugin required Multi-DB Version-3.2.4 and above to work. It shows the location of every sites in site.php page. Multi-DB plugin is plugin that scale your standard Multisite install to allow for millions of blogs and vastly improve the performance of your site. Multi-db plugin can be download from https://premium.wpmudev.org/project/multi-db/
+ *  Description: This plugin required Multi-DB Version-3.2.4+ to work. It shows the location of every sites in site.php page.
  *  Requires at least: 4.2.0
  *  Tested up to: 4.2.2
     Copyright: © 2015 Thomas Whittaker.
