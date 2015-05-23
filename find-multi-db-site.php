@@ -1,20 +1,19 @@
 <?php
 /*  Plugin Name: Find a Site
- *  Author: Thomas Whittaker
- *  Author URI: http://www.twhittakerdev.com
  *  Plugin URL: http://twhittakerdev.com/wp-content/uploads/2015/05/find-multi-db-site.zip
  *  Version: 1.0
  *  Network: true
  *  License: GPLv2 or later
  *  License URI: http://www.opensource.org/licenses/gpl-license.php
- *  Description: This plugin required Multi-DB Version-3.2.4 and above to work. It shows the information about a site in site.php page. This plugin required WPMU to work.
+ *  Description: This plugin required Multi-DB Version-3.2.4 and above to work. It shows the information about a site in site.php page. Multi-DB plugin is plugin that scale your standard Multisite install to allow for millions of blogs and vastly improve the performance of your site. Multi-db plugin can be download from https://premium.wpmudev.org/project/multi-db/
+ *  Author: Thomas Whittaker
+ *  Author URI: http://www.twhittakerdev.com
  *  Requires at least: 4.2.0
  *  Tested up to: 4.2.2
 
     Copyright: © 2015 Thomas Whittaker.
-   */
-  
-
+*/
+   
 //this part of the plugin add the location of the blog under wp-admin/network/site-info.php?id= page
 function fmds_show_blog_table(){
     global $pagenow;
